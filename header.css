@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header__buttom {
+    color: #B8BECD;
+}
+
+.header__buttom:hover {
+    color: black;
+}
+
+.active__buttom {
+    color: black
+}
+
+
+.header_nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+
+
+
+.header_nav-item {
+    margin-left: 5%;
+}
+
+.button__login {
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 10px 30px;
+
+}
+
+.button__register {
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px 30px;
+
+}

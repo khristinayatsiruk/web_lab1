@@ -1,0 +1,58 @@
+.hero__content {
+    display: flex;
+    width: 100%;
+}
+
+.split__page {
+    flex-basis: 50%;
+    flex-grow: 1;
+
+}
+
+hr {
+    display: flex;
+    width: 10%;
+    margin-left: 0;
+
+}
+
+.grid__cont {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+    gap: 30px;
+    height: 38%;
+    position: relative;
+
+
+}
+
+.select__left {
+    color: #3b3d45;
+    width: 9rem;
+    font-size: 0.7rem;
+}
+
+
+
+.img__hero {
+    width: 100%;
+    height: 100%;
+}
+
+.hero__content h1 {
+    font-family: 'Playfair Display';
+    font-size: 3rem;
+    width: 100%;
+    height: 25%;
+}
+
+.hero__content p {
+    font-family: 'inter';
+    font-size: 1rem;
+}
+
+.buttom__explore {
+    margin-top: 20%;
+
+}
